@@ -1,4 +1,5 @@
 <script setup>
+import DatosPersonales from './components/icons/DatosPersonales.vue';
 import NavBar from './components/icons/NavBar.vue';
 </script>
 
@@ -6,6 +7,8 @@ import NavBar from './components/icons/NavBar.vue';
   <header>
   <!---  Barra de navecacion--->
   <NavBar/>
+  <!---  Datos personales--->
+  <DatosPersonales/>
   </header>
   <main>
     <section id="educacion">
