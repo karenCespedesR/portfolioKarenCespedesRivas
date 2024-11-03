@@ -22,7 +22,7 @@ const navegacion = ref([
 <style scoped>
 
 .navbar {
-    background-color: var(--vt-c-indigo);
+    background-color: hsla(305, 100%, 37%, 0.6) ;
     color: #fff;
     padding: 0.5rem 1rem;
     align-items: center;
@@ -41,13 +41,13 @@ const navegacion = ref([
 }
 a{
     border:1px solid;
-    border-color: hsla(160, 100%, 37%,0.2);
+    border-color: hsla(313, 100%, 37%, 0.2);
     border-radius: 5px;
     text-decoration: none;
     transition: 0.4s;
     padding: 5px;
 }
 a:hover{
-    background-color: hsla(160, 100%, 37%,0.2) ;
+    background-color: hsla(305, 100%, 37%, 1) ;
 }
 </style>
